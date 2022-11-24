@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var carro_1 = require("./carro");
+var c;
+c = new carro_1.Carro("fiesta", "Vermelho", "ABC-1212");
+c.cor = "Vermelho";
+var c2 = new carro_1.Carro("Gol", "Brando");
+c2.cor = "Branco";
+console.log("A cor do carro ".concat(c.modelo, " \u00E9 ").concat(c.cor, " e tem ").concat(c.numPortas, " "));
+console.log("A cor do carro ".concat(c2.modelo, " \u00E9 ").concat(c2.cor, " e tem ").concat(c2.numPortas, " "));
+//console.log(c2.cor);
